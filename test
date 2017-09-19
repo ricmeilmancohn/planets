@@ -1,0 +1,277 @@
+% AER-Article.tex for AEA last revised 22 June 2011
+\documentclass[AER]{AEA}
+
+% The mathtime package uses a Times font instead of Computer Modern.
+% Uncomment the line below if you wish to use the mathtime package:
+%\usepackage[cmbold]{mathtime}
+% Note that miktex, by default, configures the mathtime package to use commercial fonts
+% which you may not have. If you would like to use mathtime but you are seeing error
+% messages about missing fonts (mtex.pfb, mtsy.pfb, or rmtmi.pfb) then please see
+% the technical support document at http://www.aeaweb.org/templates/technical_support.pdf
+% for instructions on fixing this problem.
+
+% Note: you may use either harvard or natbib (but not both) to provide a wider
+% variety of citation commands than latex supports natively. See below.
+
+% Uncomment the next line to use the natbib package with bibtex 
+\usepackage{natbib,graphicx,verbatim}
+\usepackage{pdfpages}
+
+% Uncomment the next line to use the harvard package with bibtex
+%\usepackage[abbr]{harvard}
+
+% This command determines the leading (vertical space between lines) in draft mode
+% with 1.5 corresponding to "double" spacing.
+\draftSpacing{1.5}
+
+\begin{document}
+
+\title{Impact of a Child Care Subsidy on Resource Shares within Household: Evidence from 1997 Quebec Universal Child Care Program}
+\shortTitle{Impact of Child Care Subsidy on Resource Shares}
+\author{Cheng Yuan and Ricardo Meilman L. Cohn\thanks{Yuan: Simon Fraser University, 8888 University Drive, Burnaby, British Columbia, Canada, V5A 1S6, cya70@sfu.ca. 
+Meilman L. Cohn: Simon Fraser University, 8888 University Drive, Burnaby, British Columbia, Canada, V5A 1S6, rmeilman@sfu.ca.}}
+\date{\today}
+\pubMonth{March}
+\pubYear{2017}
+\pubVolume{0}
+\pubIssue{0}
+\JEL{}
+
+\Keywords{Child care, resource shares, Quebec, difference-in-differences}
+
+\begin{abstract}
+    The universal child care policy launched in Quebec in 1997 provides a natural experiment to study the effect of day care subsidy on children's resource share within households and parents' labor supply. Starting from September 1997, 0-4 year old children are eligible to day care centres with payment of 7\$ per day. Successfully motivated mothers to rejoin the labor market, this child care subsidy policy also leads to surprisingly negative impact on children and parents' mental/physical health found in \citet{Brodeur2013,Haeck2015,Baker2015}. This paper proposes to investigate the change of resource shares within households when trying to solve the puzzle. Structural model from \citet{Dunbar2013} combined with difference-in-differences design are used to estimate the change of resource shares within the Almost Ideal Demand System \citep{Deaton1980}. Data sets include Survey of Family Expenditure (1992,1996), Survey of Household Spending (1997-2004) and Provincial Consumer Price Index (1996-2004). The estimator for the children's resource shares is about 52\% and the policy had significant positive impact on women's labor supply and negative impact on children's resource share. In addition to possible deteriorating quality in early children care centres due to fast expansion, diverting resource and attention could also contribute to the surprisingly negative impact.
+\end{abstract}
+
+\maketitle
+
+\section{Introduction}
+
+In September 1997, Quebec launched an universal child care policy aiming to provide day care institutes to all children aged 0-4 at a price of \$ 5 per day. The rest of the cost was paid by government subsidy. The subsidy accounts for about one third of the total cost previously paid by the households. 
+
+The universal child care program was launched to benefit the children and their parents. However, policy evaluation results are quite surprising. \citet{Baker2008} finds negative impacts on child non-cognitive skills and family outcomes in the short term. \citet{Haeck2015} reports evidence of negative effects on children's cognitive development at age 5. \citet{Brodeur2013} also presents small decrease in parent's life satisfaction as a result of the program. \citet{Baker2015} indicates that the exposure to the program in the long term results in worse health, lower life satisfaction and higher crime rates later for the children in Quebec.
+
+In contrast to the positive evidence for child care programs targeting children-at-risk, when considering universal child care programs which serve a diverse group of children, the evidence is mixed and typically show positive impacts primarily enjoyed by less advantageous children. When a program fails to impact positively children's behaviour, what is the mechanism that explains such negative outcomes? This paper attempts to test a potential explanation for the striking negative impacts of the child care program in Quebec by estimating the impact of the program on the unobserved household members' resource shares, that is, a share of total expenditure the household spends on consumption goods. 
+
+This paper proposes a new angle to understand the price change in child care through the resource shares within households. As a result of receiving child care subsidy, households users of child care will have more disposable income and more time to devote to other activities. How do the household reallocate the the budget with this price change. On one hand, the substitution effect suggests that more households would buy child care, as shown in \citet{Baker2008} the childcare utilization rose by 14.6 percentage points, one third of the baseline level. On the other hand, the positive income effect indicates that more would be spent on other goods. Is the extra income spent on the goods or services for the children? The reduction of child care price might leads to large diversion of resources from children to other members of the household, which can harm children's economic welfare. The effect of the program on household resource allocation can point towards a possible mechanism for the negative impacts of the program on child non-cognitive outcomes. 
+
+We explore the impact of the program on the resource shares within household, following \citet{Dunbar2013} and \citet{Deaton1980} and treating clothing as assignable private goods. Examining how income is allocated for each member's clothing allows the identification of every member's resource share.
+
+In a beckerian model of household production parents make decisions subject to budget constraints and time constraints. Child developmental outcomes could be influenced through various channels including time investments by parents, financial investments in other child care, and investments in other goods and services such toys, books, lessons. Parent financial investments in children's good and child care may enter the skill development production functions as substitutes or complements, which our methodology allows us to identify. For example, if households increase the spending in child care, what would happen to their spending in other children's goods such as toys and clothing.
+
+[SUMMARY OF RESULTS]
+not sure if we should include [Subsidy towards children does not necessarily benefit them because of changes in parents' behavior. For example, if the subsidy allows the parents to work less due to the income effect and spend more money and time on recreational activities by themselves, due to an increase of leisure time, and less time and money with the child, then it is no wonder that children could suffer from lower consumption and lower non-cognitive outcomes.]
+
+This paper is organized as follows. Section 1 provides a brief summary of the literature on household resource shares. Section 2 presents the model. Section 3 introduces the data and empirical strategy. Section 4 presents some preliminary empirical results and section 5 provides final remarks.  
+
+
+
+\section{Related Literature}
+
+We contribute to two broad strands of the literature.  First, we provide estimates of the impacts of the Quebec child care policy on the consumption of households and on the resource shares of their members. Other papers have looked at the impacts of the program on various outcomes. \citet{Baker2008} show the increase of child care utilization and maternal labour supply. \citet{Baker2015} assess medium and long-run effects of the program and report little impact on children's cognitive test scores and persistent deficits in non-cognitive development during school. Later in life, cohorts with increased child care access had worse health, lower life satisfaction, and higher crime rates particularly among boys.\citet{Haeck2015} shows ...
+
+\citet{kottelenberg2017targeted} look at the heterogeneity of the effects of the program, highlighting an increase in developmental outcome (PPVT \& MSD) for children from single-parent households, particularly the most disadvantaged. For two-parent households, program shifted strong on-on-one parental care at home to reductions in many parent-child activities coupled with less effective higher adult-child ratio care away from home. Our paper focuses particularly on the sample of two-parent household which experienced worse impacts of the program.
+
+\citet{molnar} investigates how parents reallocate their time as a result of the policy and concludes that more educated parents increase time devoted to their children, at the expense of home production, while consuming more of home production market goods (eating out, domestic help), and child market goods (daycare, games and toys). 
+
+Second, another contribution of this article is in the broad literature of collective household models. We extend the resource share model of \citet{Dunbar2013} by including prices in a \citet{Deaton1980} almost ideal demand system (AIDS) and by estimating the impact of a program on resource shares of household members in a difference-in-difference empirical strategy.
+
+Other papers have used program eligibility as distribution factors in collective household models such as \citet{angelucci2013demand} and \citet{attanasio2014efficient}. In our context, we consider eligibility to the Quebec child care program as a distribution factor since we assume it affects the decision process within the household (or bargaining power) without affecting directly preferences or the budget constraint.
+
+\section{Intrahousehold Resource Shares}
+
+Individual consumption is one if not the most important, and certainly the most used, measurement of welfare \citep{slesnick1998empirical}. However, most of the data sets available only measures the consumption at household level. Information about the consumption of the children in the household is often missing. Although household members could share some goods, like housing and vehicles, a significant part of their welfare comes from private goods like food and clothing. Identifying how the resources are allocated within household is important for measuring each member's, specially children's, well being.
+
+The unitary approach to household behaviour models households as as a single entity with a single utility function and, thus, is not suited to examine the within-household distribution of consumption. In contrast, the collective household models rely on the hypothesis that the decision process in the household produces Pareto-efficient outcomes, in which each household member has a separate utility function \footnote{See \citet{donni2011nonunitary} and \citet{vermeulen2002collective} for surveys on non-unitary models}. To estimate resources shares within household with couples only, \citet{Browning2013} proposes a model that allows non-parametric identification of them, but relies on the assumption that single and married individuals have the same underlying utility functions. \citet{Dunbar2013} extend this model in an Engel-curve framework to allow more general forms of economies of scale in households with couples and children, without a need for price data. This paper uses an this model and an extension with prices using the almost ideal demand system (AIDS) by \citet{Deaton1980}. 
+
+
+\section{Model}
+
+We combine two models to estimate the impact of universal child care program on resource shares. First, we use the model from \citet{Dunbar2013} using Engel curves for identification without need of price data.  Second, as price data is available, we use a model with an AIDS with two goods. 
+
+Households consist of three types $t$ of individuals $f$, $m$ and $c$, denoting male adult, female adult and child. Let $y$ denote household total expenditure and $p$ denote the market price vector.
+
+The collective household consumption decision take into account the utilities of all household members and reach the Pareto frontier. This assumption allows decentralizing the household problem into separate optimization problems for each household member.
+
+A household with $s$ number of children solves the following optimal problem:
+
+    \begin{eqnarray}
+    \max & & \tilde{U}_s [U_c(x_c),U_m(x_m),U_f(x_f),p/y]   \\
+    \text{such that}& &  z_s = A_s [x_f+x_m+x_c]  \\
+    & & y=z_s' p
+    \end{eqnarray}
+
+For each household member $t=c,m,f$, $x_t$ stands for equivalent private good consumption bundle. $z_s$ is the actual household consumption bundle. For example, if a married couple without children ride together in a car and they share the car the whole time, then $z^k = \frac{1}{2} (x_f^k + x_m^k)$ where $k$ denotes the order of gasoline in the consumption bundle. $A_s$ denotes the linear consumption technology matrix \citep{gorman1976tricks}. 
+
+Each household member is allocated one resource share, which is defined as a share of total expenditure spent on nondurable consumption goods. Each member of the household face the total resource constraint and and a vector of Lindahl type shadow prices \citep{lindahl1958just}. The shadow prices differ from market prices because of economies of scale of consumption within the household. As whether the good is sharable is an attribute of the good, household members face the same vector of shadow prices. 
+
+Let $\eta_{ts}$ denote the resource share of member $t$ defined as the fraction of expenditure by within the total household expenditure. $W_{ts}(y,p)$ denotes the expenditure on person $t$'s private good. Finally, $w_t(y,p)$ denotes the expenditure on private good when person $t$ maximizes his own utility $U_t(x_t)$ given income $y$.
+
+The demand functions for private assignable goods can be derived from solving the above problem:
+
+    \begin{eqnarray}
+    W_{cs}(y,p)&=& s\eta_{cs}(p) w_c( \eta_{cs}(y,p)y,A_s'P)   \\
+    W_{ms}(y)&=& \eta_{ms}(p) w_m( \eta_{ms}(y,p)y,A_s'P)      \\
+    W_{fs}(y)&=&  \eta_{fs}(p) w_f( \eta_{fs}(y,p)y,A_s'P)
+    \end{eqnarray}
+
+
+\subsection{Model 1: Identification of the resource shares using Engel Curves} 
+Since $w_t$'s are not observed, two additional assumptions are imposed to identify the resources shares and explore the functional relationship between a budget share and the total expenditure, holding prices constant.
+
+\newtheorem{theorem}{Assumption}
+    \begin{theorem}
+
+    Preferences are similar across people. Then Engel curves will have the same shape across people.
+    \begin{eqnarray}
+    w_t(y,p)&=& d_t(p) + g\left(\frac{y}{G_t(p)},p\right)
+    \end{eqnarray}
+    \end{theorem}
+
+    \begin{theorem}
+    Each person's preferences are represented by a Price Independent Generalized Logarithmic (PIGLOG) indirect utility function:
+    \begin{eqnarray}
+    v\left(\frac{y}{G_t(p)},p\right)&=& \ln \left[ \ln \left(\frac{y}{G_t(p)},p\right) \right]
+    \end{eqnarray}
+    \end{theorem}
+
+With these two assumptions, Roy's identities are followed by:
+    \begin{eqnarray}
+    W_{cs}(y,p)&=& s\eta_{cs}(p) (\delta_{cs} + \beta_s \ln \eta_{cs}(p)) + s \eta_{cs}(p) \beta_s \ln y   \\
+    W_{ms}(y,p)&=&  \eta_{ms}(p) (\delta_{ms} + \beta_s \ln \eta_{ms}(p)) +  \eta_{ms}(p) \beta_s \ln y    \\
+    W_{fs}(y,p)&=&  \eta_{fs}(p) (\delta_{fs} + \beta_s \ln \eta_{fs}(p)) +   \eta_{fs}(p) \beta_s \ln y    \\
+    1&=& s \eta_{cs} + \eta_{ms} + \eta_{fs}
+    \end{eqnarray}
+
+where  $\delta_{ts} = d_t(A_s' p)$ and $\beta_s=\beta(A_s' p)$. With constant price vector $p$, the slopes of the three Engel curves combined with the sum restriction (12) will pin down the four parameters: $\eta_{cs},\eta_{ms},\eta_{fs}, \beta_s $. Also, different prices could result in different estimates of resource shares.
+
+\subsection{Model 2: Identification of resource shares using AIDS}
+Instead of relying on Engel curves and constant prices, model 2 uses the Almost Ideal Demand System in budget share form with two good system $(i, j)$, where $i$ denotes the assignable good and $j$ denotes the nonassignable good:
+
+\begin{equation}
+w_{i}=\alpha_{i}+\gamma_{ij} \ln p_{j}+\gamma_{ii}\ln p_{i}+\beta_{i}\ln(x/P)
+\end{equation}
+where 
+\begin{equation*}
+\ln P=\alpha_{0}+\alpha_{i}\ln p_{i}+\alpha_{j}\ln p_{j}+\gamma_{ij}\ln p_{i} \ln p_{j}+\frac{1}{2}\gamma_{ii}(\ln p_{i})^{2}+\frac{1}{2}\gamma_{jj}(\ln p_{j})^{2}
+\end{equation*}
+
+with the following restrictions to satisfy homogeneity of the cost function in $p$, symmetry of the Slutzky matrix and adding up property:
+
+\[\alpha_{i}+\alpha_{j}=1
+\thinspace;\thinspace\thinspace\gamma_{ii}+\gamma_{ij}=0\thinspace;\thinspace\thinspace\gamma_{ii}+\gamma_{ji}=0\thinspace;\thinspace\thinspace\gamma_{ij}=\gamma_{ji}\]
+
+Thus, 
+\begin{equation}
+\gamma_{ij}=-\gamma_{ii}=\gamma_{ji}=-\gamma_{jj}\quad \alpha_{j}=1-\alpha_{i}
+\end{equation}
+Using the restrictions in (14) we have:
+\[
+w_{i}=\alpha_{i}+\gamma_{ij}\ln p_{j}-\gamma{}_{ij}\ln p_{i}+\beta_{i}(\ln x-\ln P)
+\]
+\[
+\ln P=\alpha_{0}+\alpha_{i}\ln p_{i}+(1-\alpha_{i})\ln p_{j}+\gamma_{ij}\ln p_{i} \ln p_{j}-\frac{1}{2}\gamma{}_{ij}(\ln p_{i})^{2}-\frac{1}{2}\gamma{}_{ij}(\ln p_{j})^{2}
+\]
+
+Which simplifies to:
+\begin{equation}
+w_{i}=\alpha_{i}-\beta_{i}\alpha_{0}+\beta_{i}(\ln x-\ln p_{j})+(\gamma_{ij}+\beta_{i}\alpha_{i})(\ln p_{j}-\ln p_{i})+\frac{\beta_{i}\gamma{}_{ij}}{2}(\ln p_{j}-\ln p_{i})^{2}
+\end{equation}
+Thus, by using (15) in \citet{Browning2013} model $W_{i}^{t}(x,\thinspace p)=\eta^{t}(x,\thinspace p)w_{i}^{t}\left(\eta^{t}\left(x,\thinspace p\right)x,\thinspace A'p\right)$,
+we have:
+\begin{align*}
+W_{i}^{t}&=\eta^{t}\big[\alpha_{i}-\beta_{i}\alpha_{0}+\beta_{i}(\ln\eta^{t}+\ln x-\ln p_{j})+(\gamma_{ij}+\beta_{i}\alpha_{i})(\ln p_{j}-\ln p_{i})  \\
+&\quad +\frac{\beta_{i}\gamma{}_{ij}}{2}(\ln p_{j}-\ln p_{i})^{2}\big]
+\end{align*} 
+
+As the model suggests, the $A$ matrix multiplies the price vector. Thus, each price of the equation above should also have one of the terms of the A matrix multiplying it. All these extra terms will be absorbed by the $\alpha_{0}$ and $\gamma_{ij}$ in the estimation. 
+
+We then estimate the non-linear system of equations:
+\begin{align}
+W_{i}^{c}&=\eta^{c}\big[\alpha_{i}^{c}-\beta_{i}\alpha_{0}^{c}+\beta_{i}(\ln\eta^{c}+\ln x-\ln p_{j})+(\gamma_{ij}^{c}   +\beta_{i}\alpha_{i}^{c})(\ln p_{j}-\ln p_{i})  \\
+&\quad+\frac{\beta_{i}\gamma_{ij}^{c}}{2}(\ln p_{j}-\ln p_{i})^{2}\big] \nonumber 
+\end{align} 
+\begin{align}
+W_{i}^{m}&=\eta^{m}\big[\alpha_{i}^{m}-\beta_{i}\alpha_{0}^{m}+\beta_{i}(\ln\eta^{m}+\ln x-\ln p_{j})+(\gamma_{ij}^{m}+\beta_{i}\alpha_{i}^{m})(\ln p_{j}-\ln p_{i})  \\
+& +\frac{\beta_{i}\gamma_{ij}^{m}}{2}(\ln p_{j}-\ln p_{i})^{2}\big] \nonumber 
+\end{align} 
+\begin{align}
+W_{i}^{f}=&(1-\eta^{c}-\eta^{m})\big[\alpha_{i}^{f}-\beta_{i}\alpha_{0}^{f}+\beta_{i}(\ln(1-\eta^{c}-\eta^{m})+\ln x-\ln p_{j})\\
+&+(\gamma_{ij}^{f}+\beta_{i}\alpha_{i}^{f})(\ln p_{j}-\ln p_{i})+\frac{\beta_{i}\gamma_{ij}^{f}}{2}(\ln p_{j}-\ln p_{i})^{2}\big] \nonumber 
+\end{align} 
+
+In the estimation, we assume:
+
+\[\eta^{t}=\eta^{t}(z,\thinspace d);\quad \alpha_{i}^{t}=\alpha_{i}^{t}(z);\quad \gamma_{ij}^{t}=\gamma_{ij}^{t}(z);\quad \beta_{i}=\beta\]
+
+where $z$ is a vector of demographic variables; and $d$ is the distribution
+factor which influences equilibrium consumption through bargaining power, but does not affect directly household member's preferences and budget constraint. 
+
+\section{Data and Empirical Strategy}
+
+Two data sets are used in our analysis. For household spending, we use Canadian Survey of Household Spending (SHS) from 1997 to 2004. For prices, we use provincial consumer price index to account for the price change over time in different provinces and use Inter-city Price Differential Index to account for the price differences across provinces, all of which are from Statistics Canada.
+
+Our sample includes households with a couple and children aged less than 5 years, who spent a positive amount of money on children's clothing every year.
+
+The set of demographic variables denoted as $z$ includes: age of the mother, urban/rural indicator, year dummies and dummy for Quebec. 
+
+Following the existing literature \citep{bobonis2009allocation,attanasio2014efficient}, we use the eligibility to the child care program in Quebec as a distribution factor denoted as $d$, specifically, the interaction term between children's elegibility age and the dummy for Quebec. The Quebec child care policy started in 1997, when only children aged 4 were eligible; in 1998 children aged 3 and 4; in 1999 children aged 2 to 4. From 2000 onwards, all children younger than 5 were eligible.
+
+We create our own measure of household total expenditure on nondurable goods, which includes spending in food, household operation, clothing, transportation, health care, personal care, recreation, education, tobacco products and alcoholic beverages.
+
+Table 1 summarizes our sample for Quebec and rest of Canada before the start of the program in 1997. The assignable good we use is clothing and it represents only 2\% of the household expenditure. The table shows the two groups are similar in terms of consumption and labour supply. Food and Transport account for around 23\% and 27\% of household budget, respectively. Recreation and child care represent 11\% and and 6\%, and child's clothing corresponds to 2\% of nondurable goods expenditure. 
+
+For model 1 and model 2, we let the resource shares $\eta_{t}$ be linear in $z$ and $d$, specifically:
+
+\begin{eqnarray}
+\eta^{t}=\theta_{0}^{t}+\theta_{1}^{t}AgeMother+\theta_{2}^{t}Rural+\theta_{3}^{t}After+\theta_{4}^{t}Quebec+\theta_{5}^{t}After \times Quebec \nonumber 
+\end{eqnarray}
+
+The estimate of $\theta_{5}^{t}$ would, thus, correspond to the impact of the exposure to the program on resource share of household member $t$.  This is an intention-to-treat effect, as we estimate the effects on all families with one child in Quebec rather than those who that choose child care services.
+
+We let the intercept preference parameters, $\delta_{t}$, of model 1 be linear in $z$. Specifically:
+
+\begin{equation}
+\delta^{t}=\sigma_{0}^{t}+\sigma_{1}^{t}AgeMother+\sigma_{2}^{t}Rural+\sigma_{3}^{t}After+\sigma_{4}^{t}Quebec \nonumber 
+\end{equation}
+
+We implement the models by including error terms to each of the equations (9), (10), (11) for model 1, and equations (16), (17), (18) for model 2. Since these errors covary across equation for each model, we use nonlinear Seemingly Unrelated Regression, as in \citet{Dunbar2013}.
+
+When estimating parents' labour supply, we use as outcome variables a dummy for working a full-time, a dummy for working part-time. The control variables are the ones in $z$ used in the estimation for resource shares.
+
+We also run difference-in-difference regressions for total expenditure, budget share for selected goods and labour supply variables, using the model:
+    \begin{eqnarray}
+    Y_i&=& \beta_1*Quebec + \beta_2 *After + \beta_3 *Quebec*After  + \beta_4 *Control + \epsilon_i  \nonumber 
+    \end{eqnarray}
+
+All estimations were conducted using sample weights provided in SHS. For the outcomes consumption budget shares of the components of total expenditure, we estimated them together in a system of seemingly unrelated regression equations (SURE). Since the sum of all the budget shares equals one, the errors are correlated across equations.    
+
+\section{Empirical Results}
+
+Results reported here are preliminary.
+
+Table 2 report the difference-in-difference estimates. There is an interesting pattern that households in Quebec show a decrease in total expenditure while households in the rest of Canada show an increase. Exposure to the program also seem to be associated with a reduction in the budget share of child's clothing. Among the other goods shown in the table, no other budget share had a significant change as a result of the program. In terms of labour supply, the program seems to have impacted parent's probability of working and the number of weeks negatively for the mother and positively for the father. Even though the focus of our analysis does not center on the reduced form estimates, as those have been widely explored in \citet{Baker2008} with more appropriate data sets, we report those results to get a better sense of impacts specifically for our sample.  
+
+Table 3 reports results of nonlinear estimation of model 1 without demographic or distribution factor variables, Equations (9)--(12). For comparison, we used two different measures of total expenditure\footnote{Measure 1: food, household operation, clothing, transportation, health care, personal care, recreation, education, tobacco products and alcoholic beverages. Measure 2: food, household operation, clothing, transportation, personal care, tobacco products and alcoholic beverages}. In the table, the parameters refer to the ones in equations (9)-(12). Depending on the measure of expenditure used, child's resource share is either 27\% or 52\%, when the full sample with all the years is considered. Only in the estimation using the alternative measure of expenditure is used, the constant slope term beta is statistically significantly different from zero, which is required for the identification of resource shares. 
+
+Next, Table 4 show the estimates of model 2 with the vectors $z$ and $d$. We define $z=0$ as the reference household which lives in a non-Quebec urban area before the policy with mother aged between 30 and 34 years. For the reference household, the resource share of the child and the father are given by \verb'eta_c_ones' and \verb'eta_m_ones', 27.6\% and 28.2\% respectively. As resource shares sum to one, the mother's resource share (44.2\%) can be easily calculated. Surprisingly, when the alternative measure of total expenditure was used, the standard errors could not be estimated because the variance matrix is highly singular. The estimates of \verb'eta_c_aft2_que' correspond to the distribution factor $d$ and represent the policy impact on resource share. These estimates are not statistically significant.
+
+Table 5 and table 6 report the results of the estimates of model 2. The parameters in these table refer to the ones in equations (16)-(18). In table 5, depending on the measure of expenditure, resource share of the child can be either 75\% or 53\%.
+
+However, we notice a problem with the estimation as the reported estimates of the \verb'alpha_0''s is exactly the ones we set as initial values. The same problem applies to the estimates in table 6, that includes $z$ and $d$. The resource share of the child of the reference household there is 52\% and the latent slope beta is -0.0126, both statistically significant. We notice that the resource share of the child increased after the program, and that children in rural areas have larger resource shares. The distribution factor term measuring the impact on resource shares is negative, but not significant for the child or for the father.
+
+\section{Final Remarks}
+
+This paper proposes to examine resources shares of children to study the reasons for negative effects of the universal child care policy in Quebec using an extension of the model in \citet{Dunbar2013}.
+
+There are still technical issues to be solved in the estimation of the models proposed here. With a richer data sets of SHS and FAMEX from RDC, this will possibly be manageable.
+
+We would be able to provide more conclusive remarks about the impact of the program on resource shares once the estimation issues are resolved. For now, our results suggest no significant impact of the exposure to the child care program on child's resource share within households in Quebec, even though the total expenditure decreased.
+\newpage
+\section{Appendix}
+
+\includepdf[pages=-]{Tables_appendix.pdf}
+\newpage
+\bibliographystyle{aea}
+\bibliography{childcare}
+\end{document}
