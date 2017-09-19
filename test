@@ -110,9 +110,9 @@ Let $\eta_{ts}$ denote the resource share of member $t$ defined as the fraction 
 The demand functions for private assignable goods can be derived from solving the above problem:
 
     \begin{eqnarray}
-    W_{cs}(y,p)&=& s\eta_{cs}(p) w_c( \eta_{cs}(y,p)y,A_s'P)   \\
+    W_{cs}(y,p)&=& s\eta_{cs}(p) o_c( \eta_{cs}(y,p)y,A_s'P)   \\
     W_{ms}(y)&=& \eta_{ms}(p) w_m( \eta_{ms}(y,p)y,A_s'P)      \\
-    W_{fs}(y)&=&  \eta_{fs}(p) w_f( \eta_{fs}(y,p)y,A_s'P)
+    W_{fs}(y)&=&  \eta_{f}(p) w_f( \eta_{fs}(y,p)y,A_s'P)
     \end{eqnarray}
 
 
